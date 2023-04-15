@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: auto;
+
+}
+#header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    max-width: 2400px;
+    border: 2px solid black;
+    background-color: rgb(49, 49, 130);
+    margin-top: 0%;
+    z-index: 2;
+}
+.logo{
+    float: left;
+    margin: 2px;
+    margin-top: 8px;
+}
+span{
+    color: green;
+}
+.fa-solid fa-house-chimney{
+    color: green;
+}
+.logo p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.nav{
+    float: right;
+}
+.nav ul {
+    float: left;
+}
+.nav ul li {
+    float: left;
+    list-style: none;
+    font-weight: bold;
+}
+.nav ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+.hover:hover{
+    color: rgb(49, 49, 130);
+    background-color: white;
+}
+#home{
+    width: 100%;
+    height: 589px;
+    background-image: url("./buildings.jpg"),linear-gradient(rgb(40, 39, 39), rgb(81, 80, 80));
+    background-repeat: no-repeat;
+    background-size: 100% 609px;
+    background-position: bottom center;
+    color: white;    
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 280px;
+    text-decoration: underline;
+
+}
+.home-para{
+    text-align: center;
+    color: white;
+}
+#about{
+    background-color: rgb(164, 160, 160);
+    height: 500px;
+    padding: 50px;
+    width: 100%;
+    max-width: 2400px;
+    min-width: 800px;
+}
+.pic{
+    float: left;
+    border: 20px solid white;
+    position: absolute;
+    padding: 0%;
+    z-index: 1;
+    
+}
+.who-head{
+    padding-left: 370px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.who-para{
+    padding-left: 370px;
+}
+.who-list{
+    padding-left: 370px;
+    column-count: 2;
+}
+.who-list>li{
+    padding-top: 10px;
+    list-style: none;
+}
+.who-list>li::before{
+    content: '✓';
+    color: rgb(44, 44, 157);
+    font-weight: bolder;
+    font: 30px;
+}
+#services{
+    background-color: white;
+    height: 999px;
+    width: 100%;
+}
+.services-head{
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding-left: 4px;
+    padding: 4px;
+}
+.service-gird{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 4px;
+}
+@media (max-width: 800px) {
+    .service-gird {
+      flex-direction: column;
+    }
+  }
+#contact{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(49, 49, 130);
+    color: white;
+    padding: 6px;
+    padding-left: 45px;
+}
+.contact-left{
+    width: 50%;
+    float: left;
+}
+.contact-right{
+    width: 30%;
+    float: right;
+
+}
+.cont-head{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding-top: 18px;
+}
+.cont-para{
+    font-size: 15px;
+}
+input {
+    padding: 6px 65px;
+    border: 2px solid rgb(49, 49, 130);
+}
+.inp-btn{
+    background-color: rgb(49, 49, 130);
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    margin: 9px;
+}
+.inp-btn:hover{
+    background-color: white;
+    color:rgb(49, 49, 130) ;
+}
+.right-head{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 22px;
+    text-decoration: underline;
+}
+.logos{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(49, 49, 130);
+    align-items: center;
+    padding: 5px 200px;
+}
+
+
+
